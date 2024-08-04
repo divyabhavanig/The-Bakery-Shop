@@ -1,0 +1,148 @@
+body{
+    background-color:#fcf8e88e;
+}
+#navbar {
+        
+    background-color: #FFCACA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+  }
+  @font-face {
+  font-family: lobster; 
+  src: url(D:\html\fonts\Lobster-Regular.ttf); 
+   }
+   
+   @font-face {
+    font-family:DMSerifDisplay; 
+    src: url(D:\html\fonts\DMSerifDisplay-Regular.ttf); 
+     }
+    
+    
+     @font-face {
+        font-family:paytone; 
+        src: url(D:\html\fonts\PaytoneOne-Regular.ttf); 
+         }
+ .about_content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#E26868;
+    font-weight: bold;
+    font-size: large;
+    background-color: #FFCACA;
+    box-shadow: 0px 0px 10px #502d19;
+    border-radius: 10px;
+ } 
+
+ h3{
+    font-family:paytone;
+    font-style: italic;
+    color:#874356;
+ }
+
+   hr{
+  border-style: solid;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width:3px ;
+  color: #FFCACA;
+
+  width:100%;
+
+}
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #502d19;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color:#FFCACA;
+    color: black;
+  }
+
+  .sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #FFCACA;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.title{
+  border-radius: 50%;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #502d19;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+.banner{
+  
+    width: 100%visible;
+    height:600px;
+    padding:20px;
+    margin:10px auto;
+   
+    
+    background-image:url("https://cdn.dribbble.com/users/8376418/screenshots/15951025/media/ba537423c19f06bfb11217ad77d30667.png");
+    border-radius: 10px;
+    background-size: cover;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px #FFCACA;
+}
+.inner_banner{
+    width:575px;
+    height:300px;
+    padding: 30px;
+    box-shadow: 0px 0px 15px 15px #7E6D5766;
+    background:url(bakery7.png);
+    text-align:center;
+    border-radius: 10px;
+}
+.footer{
+  height:4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFCACA;
+ font-family: lobster;
+  font-weight: lighter;
+  color: #502d19; ;
+  font-style: normal;
+}

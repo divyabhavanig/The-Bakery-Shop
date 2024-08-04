@@ -1,0 +1,236 @@
+#navbar {
+        
+    background-color: #FFCACA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+  }
+  @font-face {
+  font-family: lobster; 
+  src: url(D:\html\fonts\Lobster-Regular.ttf); 
+   }
+   
+   hr{
+  border-style: solid;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width:3px ;
+  color: #FFCACA;
+
+  width:100%;
+
+}
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #502d19;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color:#FFCACA;
+    color: black;
+  }
+
+  .sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #FFCACA;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.title{
+  border-radius: 50%;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #502d19;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+.page-header__slogan{
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+ .post-summary__title {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: .025em;
+  text-align: center;
+}
+h3{
+  color: #212121;
+  font-family: "Athletics", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+.recipie a{
+  padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #1B1717;
+display: block;
+transition: 0.3s;
+
+}
+.recipie a:hover{
+  color: #FF8882; 
+
+
+}
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+.rtable{
+  
+  border-radius: 5px;
+  padding: 20px;
+}
+.rimg{
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #1B1717 ;
+}
+.banner{
+  
+  width: 100%;
+  height: 600px;
+  padding:20px;
+  margin:10px auto;
+ 
+  box-shadow: 0px 0px 15px 15px #7E6D5766;
+  background-image:url(banner6.png);
+  
+  background-size: cover;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.inner_banner{
+  width:575px;
+  height:300px;
+  padding: 30px;
+  box-shadow: 0px 0px 15px 15px #7E6D5766;
+  background-color: powderblue;
+  text-align:center;
+  border-radius: 10px;
+
+}
+.ref_shop_1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+.ref_shop_2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color:#FF8882;
+  
+}
+.ref_shop_2:hover{color: rgb(177, 73, 73);}
+.ref_shop_title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+.ref_shop_img{
+  border-radius: 50%;
+  max-width: 90px;
+}
+.ref_shop_hr{
+  width:15%;
+  border-color: #1B1717;
+}
+a{font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color:#FF8882;
+}
+a:link { text-decoration: none; }
+#loader{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('https://cdn.dribbble.com/users/1241808/screenshots/2817787/media/d6dd1ec1e5e2fe07e7e745a666da0f32.gif') no-repeat center center;
+}
+.container{
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  padding: 0px;
+  margin: 10px auto;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.box{
+  width: 250px;
+  height: 450px;
+  background:none;
+margin: 0px 10px;
+transition: 0.7s;
+border-radius: 10px;
+padding: 2px;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+.box:hover{
+  transform: scale(1.2);
+  z-index: 2;
+  
+  
+}
+.footer{
+  height:4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFCACA;
+ font-family: lobster;
+  font-weight: lighter;
+  color: #502d19; ;
+  font-style: normal;
+}
